@@ -1,8 +1,17 @@
 # PROOT-DISTRO-UBUNTU
 Run xubuntu-desktop in termux-x11
 first install two apps 
+
+
+
 1 Termux
+
+
+
 2 Termux-x11
+
+
+
 from github
 then,  run those commands in termux
 
