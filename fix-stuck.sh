@@ -16,7 +16,7 @@ printf "\e[1;92m    |__| |__] |__| | \\|  |  |__|\n"
 printf "\e[1;92m     PROOT-DISTRO-UBUNTU\n\n\e[0m"
 printf "${b}[${g}*${b}]${c} Fixing issue.... ${r}\n"
 
-proot-distro login ubuntu -- dpkg --force-all --configure plocate
+proot-distro login ubuntu -- dpkg --remove --force-all  plocate
 
 proot-distro login ubuntu -- rm -f /var/lib/dpkg/info/elementary-xfce-icon-theme.postinst
 
