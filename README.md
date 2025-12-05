@@ -1,5 +1,6 @@
 # PROOT-DISTRO-UBUNTU
-
+# Reviwe
+![Uploading 1000011249.png…]()
 
 # features 
 
@@ -100,6 +101,16 @@ then
 gui
 ```
 
-
+If you want a full copy-paste command , use this -
+```
+pkg update -y
+pkg install git -y
+git clone https://github.com/rbasry29-blip/PROOT-DISTRO-UBUNTU
+cd PROOT-DISTRO-UBUNTU
+chmod +x *
+./cli.sh
+./gui.sh
+```
 And go to termux-x11 app and
 Enjoy
+
