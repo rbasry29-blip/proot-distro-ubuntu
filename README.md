@@ -33,13 +33,13 @@ from github
 then,  run those commands in termux
 
 
-
+```
 pkg update -y
 
-
+```
 pkg install git -y
 
-
+```
 git clone https://github.com/rbasry29-blip/PROOT-DISTRO-UBUNTU
 
 
