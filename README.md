@@ -29,7 +29,7 @@ first install two apps
 
 
 2 Termux-x11 
-[HERE](https://github.com/termux/termux-x11/releases/tag/nightly)
+[HERE](https://github.com/termux/termux-x11/releases/download/nightly/app-arm64-v8a-debug.apk)
 
 
 
