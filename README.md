@@ -24,7 +24,7 @@ first install two apps
 
 
 
-1. Termux [HERE](https://github.com/termux/termux-app/releases/tag/v0.118.3/termux-app_v0.118.3+github-debug_arm64-v8a.apk)
+1. Termux [HERE](https://github.com/termux/termux-app/releases/download/v0.119.0-beta.3/termux-app_v0.119.0-beta.3+apt-android-7-github-debug_arm64-v8a.apk)
 
 
 
