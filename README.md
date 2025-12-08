@@ -132,9 +132,15 @@ And in plocate
 ```
 settting up plocate (intellizing database)
 ```
-Then , hold termux app 
-click on app info
-click on force stop and ok .
+Then , hold "termux" app 
+
+
+click on "app info"
+
+
+click on "force stop" and "ok" .
+
+
 Also clean the cache
 then run in termux
 
