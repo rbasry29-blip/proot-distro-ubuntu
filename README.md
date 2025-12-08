@@ -145,23 +145,46 @@ Then run
 ./gui.sh
 ```
 # Termux-x11 setup 
- First , hold Termix-x11 app click on PREFERENCES ↓
+ First , hold Termix-x11 app click on "PREFERENCES" ↓
 
  
  ![1000011387](https://github.com/user-attachments/assets/a87319be-5e8c-4b61-b5d7-0e4cda79d2ed)
 
  
-click on other 
+click on "other"
 
 
  ![1000011388](https://github.com/user-attachments/assets/822ada0a-41e0-42ec-aa32-5cfcff0befdb)
 
 
 
-click on Configure response to user actions ↓
+click on "Configure response to user actions ↓"
 
 
 ![1000011390](https://github.com/user-attachments/assets/5213ed5b-41b1-43bb-a21f-ed2aa0ecad88)
 
+
+
+click on "Volume up" ↓
+
+
+![1000011389](https://github.com/user-attachments/assets/87233df9-2709-438e-b4e3-e5b0db15de1c)
+
+
+select "toggle additional key bar " ↓
+
+
+![1000011391](https://github.com/user-attachments/assets/b25a38b6-da04-40bb-9feb-9f0ba033b36b)
+
+
+
+click on "Volume down" 
+![1000011392](https://github.com/user-attachments/assets/31337b01-3c98-4b2d-95b6-f24132453791)
+
+
+select "toggle soft Keyboard " ↓
+
+
+![1000011393](https://github.com/user-attachments/assets/0b092744-6dcf-4e7c-b969-d50deee8fff4)
 
 
