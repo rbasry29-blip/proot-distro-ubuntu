@@ -221,3 +221,11 @@ gui
 ```
 inside ubuntu. 
 Go to Termux-x11 app, press volume up for additional key bar.  Press volume down for key board 
+for example ↓
+
+
+<img width="1600" height="720" alt="1000011396" src="https://github.com/user-attachments/assets/903ce52f-3cef-45b7-9d6d-b50dea66b8e8" />
+
+
+
+Enjoy !
