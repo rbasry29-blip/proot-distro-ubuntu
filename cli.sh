@@ -25,7 +25,7 @@ printf "${b}[${g}*${b}]${c} Installing distro ${r}\n"
 proot-distro install ubuntu 
 
 printf "${b}[${g}*${b}]${g} Ubuntu installed! 
-${b}[${g}*${b}]${g}If  you want GUI , then run   ${y}./gui.sh ${r}\n"
+${b}[${g}*${b}]${g} If  you want GUI , then run   ${y}./gui.sh ${r}\n"
 cat > $PREFIX/bin/server << 'EOF'
 #!/bin/bash
 echo "Starting server... started!"
