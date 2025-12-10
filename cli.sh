@@ -12,7 +12,7 @@ printf "\e[1;33m    _  _ ___  _  _ _  _ ___ _  _\n"
 printf "\e[1;96m    |  | |__] |  | |\\ |  |  |  |\n"
 printf "\e[1;92m    |__| |__] |__| | \\|  |  |__|\n"
 printf "\e[1;92m     PROOT-DISTRO-UBUNTU\n\n\e[0m"
-printf "${b}[${g}*${b}]${c} Updating and installing packages ${r}\n"
+printf "${b}[${g}*${b}]${c} Updating and installing packages ${g}.....${r}\n"
 yes | termux-setup-storage
 apt update -y && apt install proot-distro -y && apt install x11-repo  -y && apt install termux-x11-nightly -y
 apt install proot-distro -y
@@ -21,7 +21,7 @@ printf "\e[1;33m    _  _ ___  _  _ _  _ ___ _  _\n"
 printf "\e[1;96m    |  | |__] |  | |\\ |  |  |  |\n"
 printf "\e[1;92m    |__| |__] |__| | \\|  |  |__|\n"
 printf "\e[1;92m     PROOT-DISTRO-UBUNTU\n\n\e[0m"
-printf "${b}[${g}*${b}]${c} Installing distro ${r}\n"
+printf "${b}[${g}*${b}]${c} Installing distro ${g}.....${r}\n"
 proot-distro install ubuntu
 
 clear
@@ -30,7 +30,7 @@ printf "\e[1;96m    |  | |__] |  | |\\ |  |  |  |\n"
 printf "\e[1;92m    |__| |__] |__| | \\|  |  |__|\n"
 printf "\e[1;92m     PROOT-DISTRO-UBUNTU\n\n\e[0m"
 
-printf "${b}[${g}*${b}]${g} Adding user ubuntu ${r}\n" 
+printf "${b}[${g}*${b}]${g} Adding user ubuntu ${g}.....${r}\n" 
 proot-distro login ubuntu -- adduser ubuntu
 
 printf "${b}[${g}*${b}]${g} Ubuntu installed! ${r}\n"
