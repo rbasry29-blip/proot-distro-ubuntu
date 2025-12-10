@@ -47,7 +47,7 @@ Now run commands in termux↓
 
 
 ```
-pkg update -y
+pkg update || true
 ```
 ```
 pkg install git -y
@@ -115,7 +115,8 @@ gui
 
 If you want a full copy-paste command , use this -
 ```
-pkg update -y
+pkg update || true
+pkg upgrade || true
 pkg install git -y
 git clone https://github.com/rbasry29-blip/PROOT-DISTRO-UBUNTU
 cd PROOT-DISTRO-UBUNTU
