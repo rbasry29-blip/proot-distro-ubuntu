@@ -119,7 +119,7 @@ pkg update || true
 yes | pkg upgrade
 pkg install git -y
 git clone https://github.com/rbasry29-blip/proot-distro-ubuntu
-cd 
+cd proot-distro-ubuntu
 chmod +x *
 ./cli.sh
 ./gui.sh
