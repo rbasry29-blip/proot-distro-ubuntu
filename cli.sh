@@ -38,10 +38,10 @@ spinner() {
     fi
 }
 clear
-printf "\e[1;33m    _  _ ___  _  _ _  _ ___ _  _\n"
-printf "\e[1;96m    |  | |__] |  | |\\ |  |  |  |\n"
-printf "\e[1;92m    |__| |__] |__| | \\|  |  |__|\n"
-printf "\e[1;92m     PROOT-DISTRO-UBUNTU\n\n\e[0m"
+printf '\e[1;33m    _  _ ___  _  _ _  _ ___ _  _\n'
+printf '\e[1;96m    |  | |__] |  | |\\ |  |  |  |\n'
+printf '\e[1;92m    |__| |__] |__| | \\|  |  |__|\n'
+printf '\e[1;92m     PROOT-DISTRO-UBUNTU\n\n\e[0m'
 printf "$c"
 LINES=(
   "Welcome"
@@ -63,28 +63,25 @@ printf "$r"
 spinner "${b}[${g}*${b}]${c} Cleaning termux environment${g}....." "dpkg --configure -a && apt --fix-broken install && sleep 5"
 sleep 1
 clear
-printf "\e[1;33m    _  _ ___  _  _ _  _ ___ _  _\n"
-printf "\e[1;96m    |  | |__] |  | |\\ |  |  |  |\n"
-printf "\e[1;92m    |__| |__] |__| | \\|  |  |__|\n"
-printf "\e[1;92m     PROOT-DISTRO-UBUNTU\n\n\e[0m"
+printf '\e[1;33m    _  _ ___  _  _ _  _ ___ _  _\n'
+printf '\e[1;96m    |  | |__] |  | |\\ |  |  |  |\n'
+printf '\e[1;92m    |__| |__] |__| | \\|  |  |__|\n'
+printf '\e[1;92m     PROOT-DISTRO-UBUNTU\n\n\e[0m'
 
 yes | termux-setup-storage
-spinner "${b}[${g}*${b}]${c} Installing packages${g}....." "apt update -y && apt install proot-distro -y && apt install x11-repo  -y && apt ins>
+spinner "${b}[${g}*${b}]${c} Installing packages${g}....." "apt update -y && apt install proot-distro -y && apt install x11-repo  -y && apt install termux-x11-nightly && apt install x11-repo -y "
 sleep 1
 clear
-printf "\e[1;33m    _  _ ___  _  _ _  _ ___ _  _\n"
-printf "\e[1;96m    |  | |__] |  | |\\ |  |  |  |\n"
-printf "\e[1;92m    |__| |__] |__| | \\|  |  |__|\n"
-printf "\e[1;92m     PROOT-DISTRO-UBUNTU\n\n\e[0m"
-printf "${b}[${g}*${b}]${c} Installing distro ${g}.....${r}\n"
+printf '\e[1;33m    _  _ ___  _  _ _  _ ___ _  _\n'
+printf '\e[1;96m    |  | |__] |  | |\\ |  |  |  |\n'
+printf '\e[1;92m    |__| |__] |__| | \\|  |  |__|\n'
+printf '\e[1;92m     PROOT-DISTRO-UBUNTU\n\n\e[0m'
 proot-distro install ubuntu
 
 clear
 printf "\e[1;33m    _  _ ___  _  _ _  _ ___ _  _\n"
 printf "\e[1;96m    |  | |__] |  | |\\ |  |  |  |\n"
 printf "\e[1;92m    |__| |__] |__| | \\|  |  |__|\n"
-printf "\e[1;92m     PROOT-DISTRO-UBUNTU\n\n\e[0m"
-
 printf "${b}[${g}*${b}]${g} Adding user ubuntu ${g}.....${r}\n"
 proot-distro login ubuntu -- adduser ubuntu
 
@@ -94,10 +91,9 @@ printf "${b}[${g}*${b}]${g} If you want GUI , Then run ${r}\n"
 
 printf "${b}[${g}*${b}]${y} ./gui.sh ${r}\n"
 
-
 cat > $PREFIX/bin/server << 'EOF'
 #!/bin/bash
-echo "Starting server... started!"
+echo Starting server... started!
 termux-x11 :0
 EOF
 
